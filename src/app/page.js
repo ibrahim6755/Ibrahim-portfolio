@@ -17,7 +17,7 @@ export default function Home() {
       {/* //About section */}
       <section id="about">
         <div className="container my-6">
-          <h1 className="my-8 ms-8 md:ms-0 lg:ms-0 text-4xl  font-bold">
+          <h1 className="my-8 ms-8 md:ms-0 lg:ms-0 text-4xl text-yellow-500 font-bold">
             About Me
           </h1>
           <p className="ms-6 text-white p-2 md:p-0 lg:p-0">
@@ -48,7 +48,9 @@ export default function Home() {
       {/* //Skills section */}
       <section>
         <div className="container">
-          <h1 className="my-8 text-4xl text-center  font-bold">My Skills</h1>
+          <h1 className="my-8 text-4xl text-center text-yellow-500 font-bold">
+            My Skills
+          </h1>
           <SkillCard data={data} />
         </div>
       </section>
@@ -57,7 +59,9 @@ export default function Home() {
 
       <section id="projects">
         <div className="container">
-          <h1 className="my-8 text-4xl text-center  font-bold">Projects</h1>
+          <h1 className="my-8 text-4xl text-center text-yellow-500 font-bold">
+            Projects
+          </h1>
           <ProjectCard />
         </div>
       </section>
@@ -65,7 +69,9 @@ export default function Home() {
       {/* //contact section */}
       <section id="contact">
         <div className="container">
-          <h1 className="my-8 text-4xl text-center  font-bold">Contact Me</h1>
+          <h1 className="my-8 text-4xl text-center text-yellow-500 font-bold">
+            Contact Me
+          </h1>
           <ContactMe />
         </div>
       </section>
